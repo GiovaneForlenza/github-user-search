@@ -1,10 +1,10 @@
 import React, { useState } from "react";
+import { UserData } from "./Home";
 
-//Trying to fix a github mistake
 
 interface SearchBarProps {
   setLoading: (loading: boolean) => void;
-  setUserData: (data: any) => void;
+  setUserData: (data: UserData) => void;
   setFoundUser: (loading: boolean) => void;
 }
 
