@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+//Trying to fix a github mistake
+
 interface SearchBarProps {
   setLoading: (loading: boolean) => void;
   setUserData: (data: any) => void;
